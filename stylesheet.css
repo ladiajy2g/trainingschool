@@ -1,0 +1,349 @@
+body{
+    background-color: #EDEDED;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-links .active {
+    color: #004064;
+}
+button.btn-custom a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* top banner section */
+.top-banner {
+    background-image: url(images/LTI-main-banner.jpg);
+    background-size: cover;
+    height: 40vh;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* navigation section */
+.navigation {
+    background-color: #EDEDED;
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    padding: 10px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.menu-links li{
+    list-style: none;
+}
+
+.menu-links li a{
+    text-decoration: none;
+    color: #006BA6;
+}
+
+.menu-links li a:hover{
+    color: #004064;
+}
+
+.top-message h1{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.top-message h3{
+    font-size: 1rem;
+    color: #fff;
+}
+/* end top banner section */
+
+/* intro section */
+.intro-section {
+    margin: -30px 60px 0 60px;
+}
+
+.details-text{
+    background-color: #006BA6;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.details-text p{
+    color: #fff;
+}
+
+.details-image{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 40%;
+    background-image: url(images/student-lady.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+/* end intro section */
+
+/* middle banner section */
+.middle-banner {
+    background-color: #90DDF0;
+    padding: 40px;
+    text-align: center;
+    margin: 100px 0 70px 0;
+}
+
+.middle-banner h3{
+    color: #006BA6;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.middle-banner button.btn-custom{
+    background-color: #006BA6;
+}
+
+.middle-banner button.btn-custom:hover{
+    background-color: #004064;
+}
+
+/* end middle section banner */
+
+/* courses section */
+
+.courses-section{
+    padding: 0 50px 0px 50px;
+}
+.section-heading h2{
+    color: #006BA6;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.courses{
+    padding-bottom: 60px;
+}
+.courses img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.courses h4{
+    color: #006BA6;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.courses button.btn-custom{
+    background-color: #006BA6;
+}
+
+.courses button.btn-custom:hover{
+    background-color: #004064;
+}
+
+/* end courses section */
+
+/* footer section */
+.footer{
+    background-color: #006BA6;
+    color: #fff;
+    text-align: center;
+    padding: 30px 60px 20px 60px;
+}
+
+.social-links i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer-columns .addresses{
+    padding-top: 20px;
+}
+.copyright-section p{
+    font-size: .8rem;
+}
+
+/* end footer section */
+
+/* inner pages style */
+
+/* begin courses page styles */
+.inner-pages-section{
+    padding: 7vh 5vw 7vh 5vw ;
+}
+.top-banner-inner-pages {
+    background-image: url(images/LTI-main-banner.jpg);
+    background-size: cover;
+    height: 30vh;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.top-message-courses h1{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.left-column h5, .right-column h3{
+    color: #006BA6;
+}
+.left-column{
+    padding-bottom: 30px;
+}
+.left-column ul{
+    list-style-type: disc;
+}
+
+.left-column a{
+    color: #2E2E2E;
+    text-decoration: none;
+}
+.left-column a:hover{
+    color: #006BA6;
+    text-decoration: none;
+}
+
+.right-column h3{
+    padding-bottom: 30px;
+}
+.course-details{
+    padding-bottom: 50px;
+}
+.right-column button.btn-custom{
+    background-color: #006BA6;
+}
+
+.right-column button.btn-custom:hover{
+    background-color: #004064;
+}
+/* end courses page styles */
+
+
+/* Media Queries */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .top-banner {
+        height: 60vh;
+    }
+
+    .menu-links li{
+        float: left;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    .top-banner{
+        text-align: center;
+        
+    }
+    .top-message h1{
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 80px;
+    }
+    
+    .top-message h3{
+        font-size: 1.3rem;
+        color: #fff;
+        padding: 0 200px 0 200px;
+    }
+    .intro-section {
+        margin: -80px 200px 70px 200px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .details-text{
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 0;
+        padding: 50px 60px 50px 60px;
+    }
+    
+    .details-image{
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 0;
+        height: 100%;
+        background-image: url(images/student-lady.jpg);
+        background-size: cover;
+        background-position: top left;
+    }
+
+    .middle-banner {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    .middle-banner h3{
+        font-size: 1.7rem;
+        padding: 30px 250px 20 250px;
+    }
+
+    .courses-section{
+        padding-top: 20px;
+    }
+    .courses-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        padding: 0px 150px 50px 150px;
+    }
+    .courses{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .courses h4{
+        font-size: 1.3rem;
+    }
+
+    .footer{
+        padding: 50px 60px 10px 60px;
+    }
+    .footer-columns{
+        display: grid;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 200px;
+        padding-bottom: 50px;
+    }
+    .copyright-section p{
+        text-align: right;
+    }
+
+    /* inner pages style */
+
+    /* courses page styles */
+    .top-banner-inner-pages {
+        height: 35vh;
+    }
+    .top-message-courses h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .inner-pages-section{
+        padding:  10vh 15vw 5vh 10vw;
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+}
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
